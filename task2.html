@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Stopwatch</title>
+  <link rel="stylesheet" href="task2.css">
+</head>
+<body>
+  <div class="container">
+    <div class="stopwatch">
+      <div class="time">
+        <span class="seconds">00:00:00</span><span class="milliseconds">00</span>
+      </div>
+      <button id="startStopBtn" onclick="startStop()">Start</button>
+      <button id="lapResetBtn" onclick="lapReset()">Lap</button>
+      <button id="resetBtn" onclick="reset()">Reset</button>
+      <div class="laps"></div>
+    </div>
+  </div>
+
+  <script src="task2.js"></script>
+</body>
+</html>
